@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlearning/background_changer/BgHomePage.dart';
+import 'package:flutterlearning/dice_roller/DiceHomePage.dart';
 import 'package:flutterlearning/navigation_drawer/DrawerPage.dart';
+import 'package:flutterlearning/tictactoe/TictactoePage.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +18,9 @@ class MyApp extends StatelessWidget {
       home: DrawerPage(),
       debugShowCheckedModeBanner: false,
       routes: <String, WidgetBuilder>{
-        "/bg_change" : (BuildContext context) => BgHomePage() 
+        "/bg_change" : (BuildContext context) => BgHomePage(),
+        "/dice_roll" : (BuildContext context) => DiceHomePage(),
+        "/tictactoe" : (BuildContext context) => TictactoePage() 
       },
     );
   }

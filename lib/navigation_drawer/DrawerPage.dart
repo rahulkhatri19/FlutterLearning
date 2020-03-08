@@ -28,6 +28,16 @@ class _DrawerPageState extends State<DrawerPage> {
                   onTap: () => Navigator.of(context).pushNamed('/bg_change'),
                 ),
                 ListTile(
+                  title: Text('Dice Roller'),
+                  trailing: Icon(Icons.dashboard),
+                  onTap: () => Navigator.of(context).pushNamed('/dice_roll'),
+                ),
+                ListTile(
+                  title: Text('TicTacToe'),
+                  trailing: Icon(Icons.dashboard),
+                  onTap: () => Navigator.of(context).pushNamed('/tictactoe'),
+                ),
+                ListTile(
                   title: Text('Close Dawer'),
                   trailing: Icon(Icons.clear),
                   onTap: () => Navigator.of(context).pop(),
