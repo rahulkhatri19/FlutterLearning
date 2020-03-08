@@ -24,10 +24,10 @@ samples, guidance on mobile development, and a full API reference.
       <img src="screenshot/drawer_home_page.png" width=270 />
     </td>
     <td>
-      <img src="Screenshot/drawer_page.png" width=270 />
+      <img src="screenshot/drawer_page.png" width=270 />
     </td>
     <td>
-      <img src="Screenshot/background_ch_home_page.png" width=270 />
+      <img src="screenshot/background_ch_home_page.png" width=270 />
     </td>
   </tr>
 </table>
