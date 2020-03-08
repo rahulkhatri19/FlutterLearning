@@ -29,13 +29,23 @@ class _DrawerPageState extends State<DrawerPage> {
                 ),
                 ListTile(
                   title: Text('Dice Roller'),
-                  trailing: Icon(Icons.dashboard),
+                  trailing: Image.asset('images/icon/dice.png', width:24.0, height: 24.0),
                   onTap: () => Navigator.of(context).pushNamed('/dice_roll'),
                 ),
                 ListTile(
                   title: Text('TicTacToe'),
-                  trailing: Icon(Icons.dashboard),
+                  trailing: Image.asset('images/icon/cross.png', width:24.0, height: 24.0),
                   onTap: () => Navigator.of(context).pushNamed('/tictactoe'),
+                ),
+                 ListTile(
+                  title: Text('Scratch Win'),
+                  trailing: Icon(Icons.dashboard),
+                  onTap: () => Navigator.of(context).pushNamed('/scratchwin'),
+                ),
+                 ListTile(
+                  title: Text('Spanish Audio'),
+                  trailing: Icon(Icons.audiotrack),
+                  onTap: () => Navigator.of(context).pushNamed('/spanishaudio'),
                 ),
                 ListTile(
                   title: Text('Close Dawer'),

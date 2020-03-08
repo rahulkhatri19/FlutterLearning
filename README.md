@@ -32,7 +32,31 @@ samples, guidance on mobile development, and a full API reference.
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td>
+      <img src="screenshot/dice_roller.png" width=270 />
+    </td>
+    <td>
+      <img src="screenshot/tictactoe.png" width=270 />
+    </td>
+    <td>
+      <img src="screenshot/scratch_win.png" width=270 />
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <img src="screenshot/spanish_audio.png" width=270 />
+    </td>
+    </tr>
+</table>
+
+
 ### Credits :
 
 - Udemy Tutorial : Complete Flutter Development. 
+- <a target="_blank" href="https://icons8.com/icons/set/dice">Dice icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 - and few of my inputs and logic.
