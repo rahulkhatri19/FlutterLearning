@@ -58,5 +58,5 @@ samples, guidance on mobile development, and a full API reference.
 ### Credits :
 
 - Udemy Tutorial : Complete Flutter Development. 
-- <a target="_blank" href="https://icons8.com/icons/set/dice">Dice icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+- Icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 - and few of my inputs and logic.
