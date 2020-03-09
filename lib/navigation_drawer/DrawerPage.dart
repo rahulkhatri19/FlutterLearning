@@ -38,6 +38,11 @@ class _DrawerPageState extends State<DrawerPage> {
                   onTap: () => Navigator.of(context).pushNamed('/tictactoe'),
                 ),
                 ListTile(
+                  title: Text('Scratch Win'),
+                  trailing: Icon(Icons.dashboard),
+                  onTap: () => Navigator.of(context).pushNamed('/scratchwin'),
+                ),
+                ListTile(
                   title: Text('Close Dawer'),
                   trailing: Icon(Icons.clear),
                   onTap: () => Navigator.of(context).pop(),

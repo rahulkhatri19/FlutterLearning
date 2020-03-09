@@ -46,6 +46,8 @@ flutter:
    - images/icon/
    - images/dice/
    - images/tictactoe/
+   - images/scratchwin/
+   - images/logo.jpg
 
 
   #  - images/a_dot_ham.jpeg
