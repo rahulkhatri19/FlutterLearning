@@ -45,6 +45,7 @@ flutter:
   assets:
    - images/icon/
    - images/dice/
+   - images/tictactoe/
 
 
   #  - images/a_dot_ham.jpeg
