@@ -27,6 +27,11 @@ class _DrawerPageState extends State<DrawerPage> {
                   trailing: Icon(Icons.album),
                   onTap: () => Navigator.of(context).pushNamed('/bg_change'),
                 ),
+                  ListTile(
+                  title: Text('Dice Roller'),
+                  trailing: Image.asset('images/icon/dice.png', width:24.0, height: 24.0),
+                  onTap: () => Navigator.of(context).pushNamed('/dice_roll'),
+                ),
                 ListTile(
                   title: Text('Close Dawer'),
                   trailing: Icon(Icons.clear),
