@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         "/bg_change" : (BuildContext context) => BgHomePage(),
         "/dice_roll" : (BuildContext context) => DiceHomePage(),
-        "/tictactoe" : (BuildContext context) => TictactoePage(), 
+        "/tictactoe" : (BuildContext context) => TictactoePage(),
         "/scratchwin" : (BuildContext context) => ScratchWinPage(),
         "/spanishaudio" : (BuildContext context) => SpanishAudio(),
       },
