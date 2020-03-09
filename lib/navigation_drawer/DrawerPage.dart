@@ -42,6 +42,11 @@ class _DrawerPageState extends State<DrawerPage> {
                   trailing: Icon(Icons.dashboard),
                   onTap: () => Navigator.of(context).pushNamed('/scratchwin'),
                 ),
+                 ListTile(
+                  title: Text('Spanish Audio'),
+                  trailing: Icon(Icons.audiotrack),
+                  onTap: () => Navigator.of(context).pushNamed('/spanishaudio'),
+                ),
                 ListTile(
                   title: Text('Close Dawer'),
                   trailing: Icon(Icons.clear),
