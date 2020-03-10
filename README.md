@@ -51,12 +51,18 @@ samples, guidance on mobile development, and a full API reference.
     <td>
       <img src="screenshot/spanish_audio.png" width=270 />
     </td>
+    <td>
+      <img src="screenshot/signup_page.png" width=270 />
+    </td>
+    <td>
+      <img src="screenshot/signup_home_page.png" width=270 />
+    </td>
     </tr>
 </table>
 
 
 ### Credits :
 
-- Udemy Tutorial : Complete Flutter Development. 
+- Udemy Tutorial : [Complete Flutter Development.](https://www.udemy.com/course/complete-flutter-development) 
 - Icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 - and few of my inputs and logic.
