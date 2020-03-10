@@ -3,6 +3,7 @@ import 'package:flutterlearning/background_changer/BgHomePage.dart';
 import 'package:flutterlearning/dice_roller/DiceHomePage.dart';
 import 'package:flutterlearning/navigation_drawer/DrawerPage.dart';
 import 'package:flutterlearning/scratchwin/ScratchWinPage.dart';
+import 'package:flutterlearning/signup/SignUpPage.dart';
 import 'package:flutterlearning/spanishaudio/SpanishAudioPage.dart';
 import 'package:flutterlearning/tictactoe/TictactoePage.dart';
 
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
         "/tictactoe" : (BuildContext context) => TictactoePage(),
         "/scratchwin" : (BuildContext context) => ScratchWinPage(),
         "/spanishaudio" : (BuildContext context) => SpanishAudio(),
+        "/signup" : (BuildContext context) => SignUpPage(),
       },
     );
   }
