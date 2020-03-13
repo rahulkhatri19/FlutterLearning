@@ -52,6 +52,11 @@ class _DrawerPageState extends State<DrawerPage> {
                   trailing: Icon(Icons.person),
                   onTap: () => Navigator.of(context).pushNamed('/signup'),
                 ),
+                 ListTile(
+                  title: Text('Github Api'),
+                  trailing: Icon(Icons.person),
+                  onTap: () => Navigator.of(context).pushNamed('/api'),
+                ),
                 ListTile(
                   title: Text('Close Dawer'),
                   trailing: Icon(Icons.clear),
