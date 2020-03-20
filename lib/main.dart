@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutterlearning/api_fetch/github_api/ApiHomePage.dart';
+import 'package:flutterlearning/api_fetch/random_user/RandomApiPage.dart';
 import 'package:flutterlearning/background_changer/BgHomePage.dart';
 import 'package:flutterlearning/dice_roller/DiceHomePage.dart';
-import 'package:flutterlearning/github_api/ApiHomePage.dart';
 import 'package:flutterlearning/navigation_drawer/DrawerPage.dart';
 import 'package:flutterlearning/scratchwin/ScratchWinPage.dart';
 import 'package:flutterlearning/signup/SignUpPage.dart';
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
         "/scratchwin" : (BuildContext context) => ScratchWinPage(),
         "/spanishaudio" : (BuildContext context) => SpanishAudio(),
         "/signup" : (BuildContext context) => SignUpPage(),
-        "/api" : (BuildContext context) => ApiHomePage()
+        "/github_api" : (BuildContext context) => ApiHomePage(),
+        "/random_api" : (BuildContext context) => RandomApiPage(),
       },
     );
   }

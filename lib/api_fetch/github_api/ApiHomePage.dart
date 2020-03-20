@@ -10,7 +10,7 @@ class ApiHomePage extends StatefulWidget {
 
 class _ApiHomePageState extends State<ApiHomePage> {
   final String url = "https://api.github.com/users";
-  List data;
+  List data= [];
   var isLoading = false;
 
   @override
@@ -22,19 +22,19 @@ class _ApiHomePageState extends State<ApiHomePage> {
   Future<String> getJsonData() async {
     var response = await http.get(
       Uri.encodeFull(url));
-      // print(response.body);
+      //  print(response.body);
       setState(() {
         var convertDataToJson = json.decode(response.body);
         data = convertDataToJson;
-        print(data);
-      });
+       // print(data);
+      }); 
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Parse Json')
+        title: Text('Parse Json Data')
       ),
       body: ListView.builder(
         itemCount: data.length,
@@ -43,14 +43,21 @@ class _ApiHomePageState extends State<ApiHomePage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
+                // ListTile(
+                //   leading: Icon(Icons.person), 
+                //   title: Text(data[index]['login'], style: TextStyle(
+                //     fontSize: 20.0)
+                //     ),
+                //     subtitle: Text(data[index]['url'],
+                //     style: TextStyle(fontSize: 15.0),
+                //     ),
+                // ),
                 ListTile(
-                  leading: Icon(Icons.person),
-                  title: Text(data[index]['login'], style: TextStyle(
-                    fontSize: 20.0)
-                    ),
-                    subtitle: Text("Sub Dummy data", 
-                    style: TextStyle(fontSize: 15.0),
-                    ),
+                  leading: Icon(Icons.accessibility_new),
+                  title: Text("Name: "+data[index]['login'],
+                   style:TextStyle(fontSize: 14.0)),
+                  subtitle: Text("Url: "+data[index]['url']+"\nFollower url: "+data[index]['followers_url'],
+                   style: TextStyle(fontSize: 10.5)),
                 )
               ]
             ),

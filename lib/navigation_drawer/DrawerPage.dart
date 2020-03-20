@@ -55,7 +55,12 @@ class _DrawerPageState extends State<DrawerPage> {
                  ListTile(
                   title: Text('Github Api'),
                   trailing: Icon(Icons.person),
-                  onTap: () => Navigator.of(context).pushNamed('/api'),
+                  onTap: () => Navigator.of(context).pushNamed('/github_api'),
+                ),
+                ListTile(
+                  title: Text('Random Api'),
+                  trailing: Icon(Icons.person),
+                  onTap: () => Navigator.of(context).pushNamed('/random_api'),
                 ),
                 ListTile(
                   title: Text('Close Dawer'),
