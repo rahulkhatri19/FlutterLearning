@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterlearning/api_fetch/github_api/ApiHomePage.dart';
 import 'package:flutterlearning/api_fetch/random_user/RandomApiPage.dart';
 import 'package:flutterlearning/background_changer/BgHomePage.dart';
+import 'package:flutterlearning/db_todo/NoteList.dart';
 import 'package:flutterlearning/dice_roller/DiceHomePage.dart';
 import 'package:flutterlearning/navigation_drawer/DrawerPage.dart';
 import 'package:flutterlearning/scratchwin/ScratchWinPage.dart';
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
         "/signup" : (BuildContext context) => SignUpPage(),
         "/github_api" : (BuildContext context) => ApiHomePage(),
         "/random_api" : (BuildContext context) => RandomApiPage(),
+        "/db_todo" : (BuildContext context) => NoteList(),
       },
     );
   }

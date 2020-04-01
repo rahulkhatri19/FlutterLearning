@@ -62,6 +62,11 @@ class _DrawerPageState extends State<DrawerPage> {
                   trailing: Icon(Icons.person),
                   onTap: () => Navigator.of(context).pushNamed('/random_api'),
                 ),
+                 ListTile(
+                  title: Text('Local Database'),
+                  trailing: Icon(Icons.donut_large),
+                  onTap: () => Navigator.of(context).pushNamed('/db_todo') ,
+                ),
                 ListTile(
                   title: Text('Close Dawer'),
                   trailing: Icon(Icons.clear),
