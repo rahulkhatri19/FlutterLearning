@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutterlearning/api_fetch/github_api/ApiHomePage.dart';
+import 'package:flutterlearning/api_fetch/random_user/RandomApiPage.dart';
 import 'package:flutterlearning/background_changer/BgHomePage.dart';
+import 'package:flutterlearning/db_todo/NoteList.dart';
 import 'package:flutterlearning/dice_roller/DiceHomePage.dart';
+import 'package:flutterlearning/firebase_auth/FirebaseAuthPage.dart';
+import 'package:flutterlearning/firebase_auth/SignInPage.dart';
+import 'package:flutterlearning/firebase_auth/SignUpFirePage.dart';
 import 'package:flutterlearning/navigation_drawer/DrawerPage.dart';
 import 'package:flutterlearning/scratchwin/ScratchWinPage.dart';
 import 'package:flutterlearning/signup/SignUpPage.dart';
@@ -27,6 +33,12 @@ class MyApp extends StatelessWidget {
         "/scratchwin" : (BuildContext context) => ScratchWinPage(),
         "/spanishaudio" : (BuildContext context) => SpanishAudio(),
         "/signup" : (BuildContext context) => SignUpPage(),
+        "/github_api" : (BuildContext context) => ApiHomePage(),
+        "/random_api" : (BuildContext context) => RandomApiPage(),
+        "/db_todo" : (BuildContext context) => NoteList(),
+        "/firebaseauth": (BuildContext context) => FirebaseAuthPage(),
+        "/signinpage": (BuildContext context) => SignInPage(),
+        "/signupfirepage": (BuildContext context) => SignUpFirePage()
       },
     );
   }
