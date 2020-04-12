@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         "/github_api" : (BuildContext context) => ApiHomePage(),
         "/random_api" : (BuildContext context) => RandomApiPage(),
         "/db_todo" : (BuildContext context) => NoteList(),
-        "firebaseauth": (BuildContext context) => FirebaseAuthPage(),
+        "/firebaseauth": (BuildContext context) => FirebaseAuthPage(),
         "/signinpage": (BuildContext context) => SignInPage(),
         "/signupfirepage": (BuildContext context) => SignUpFirePage()
       },

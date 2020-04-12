@@ -30,9 +30,9 @@ dependencies:
   path_provider: ^1.6.5       # path filesystem by flutter.dev  
   
   firebase_core: ^0.4.0+9     # Firebase Core Flutter SDK
-  firebase_analytics: ^5.0.2  # FlutterFire plugin for Google Analytics
+  #firebase_analytics: ^5.0.2  # FlutterFire plugin for Google Analytics
   firebase_auth: ^0.14.0+5    # Firebase Authentication
-  cloud_firestore: ^0.12.9+5  # Cloud Firestore
+ # cloud_firestore: ^0.12.9+5  # Cloud Firestore
 
 dev_dependencies:
   flutter_test:
