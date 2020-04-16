@@ -1,6 +1,6 @@
 import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterlearning/spanishaudio/NumberAudio.dart';
+import 'package:flutterlearning/spanish_audio/NumberAudio.dart';
 
 class SpanishAudio extends StatefulWidget {
   @override

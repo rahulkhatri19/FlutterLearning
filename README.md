@@ -176,6 +176,14 @@ samples, guidance on mobile development, and a full API reference.
   </tr>
 </table>
 
+- **Firebase Realt-time Database**: Firebase Authentication app simple signup, signin, and home page to show login. [Flutter Firebase Authentication docs](https://firebase.google.com/docs/flutter/setup)
+
+[](https://pub.dev/packages/firebase_storage)
+[](https://pub.dev/packages/firebase_database)
+[](https://pub.dev/packages/image_picker)
+[](https://pub.dev/packages/url_launcher)
+
+  - [code path](lib/firebase_auth)
 
 ### Credits :
 

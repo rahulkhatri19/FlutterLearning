@@ -8,9 +8,9 @@ import 'package:flutterlearning/firebase_auth/FirebaseAuthPage.dart';
 import 'package:flutterlearning/firebase_auth/SignInPage.dart';
 import 'package:flutterlearning/firebase_auth/SignUpFirePage.dart';
 import 'package:flutterlearning/navigation_drawer/DrawerPage.dart';
-import 'package:flutterlearning/scratchwin/ScratchWinPage.dart';
+import 'package:flutterlearning/scratch_win/ScratchWinPage.dart';
 import 'package:flutterlearning/signup/SignUpPage.dart';
-import 'package:flutterlearning/spanishaudio/SpanishAudioPage.dart';
+import 'package:flutterlearning/spanish_audio/SpanishAudioPage.dart';
 import 'package:flutterlearning/tictactoe/TictactoePage.dart';
 
 void main() => runApp(MyApp());
