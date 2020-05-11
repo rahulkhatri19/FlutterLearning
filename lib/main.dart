@@ -7,6 +7,7 @@ import 'package:flutterlearning/dice_roller/DiceHomePage.dart';
 import 'package:flutterlearning/firebase_auth/FirebaseAuthPage.dart';
 import 'package:flutterlearning/firebase_auth/SignInPage.dart';
 import 'package:flutterlearning/firebase_auth/SignUpFirePage.dart';
+import 'package:flutterlearning/firebase_realtime_db/FirebaseRtDbPage.dart';
 import 'package:flutterlearning/navigation_drawer/DrawerPage.dart';
 import 'package:flutterlearning/scratch_win/ScratchWinPage.dart';
 import 'package:flutterlearning/signup/SignUpPage.dart';
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
         "/db_todo" : (BuildContext context) => NoteList(),
         "/firebaseauth": (BuildContext context) => FirebaseAuthPage(),
         "/signinpage": (BuildContext context) => SignInPage(),
-        "/signupfirepage": (BuildContext context) => SignUpFirePage()
+        "/signupfirepage": (BuildContext context) => SignUpFirePage(),
+        "/firebasecontact": (BuildContext context) => FirebaseRtDbPage()
       },
     );
   }

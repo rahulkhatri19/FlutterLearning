@@ -62,6 +62,7 @@ flutter:
    - images/scratchwin/
    - images/logo.jpg
    - assets/spanishaudio/
+   - images/placeholder.png
 
 
   #  - images/a_dot_ham.jpeg

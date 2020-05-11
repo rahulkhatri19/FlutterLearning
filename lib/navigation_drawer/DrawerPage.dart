@@ -72,6 +72,11 @@ class _DrawerPageState extends State<DrawerPage> {
                   trailing: Icon(Icons.perm_identity),
                   onTap: () => Navigator.of(context).pushNamed('/firebaseauth') ,
                 ),
+                 ListTile(
+                  title: Text('Firebase Add Contact'),
+                  trailing: Icon(Icons.perm_identity),
+                  onTap: () => Navigator.of(context).pushNamed('/firebasecontact') ,
+                ),
                 ListTile(
                   title: Text('Close Dawer'),
                   trailing: Icon(Icons.clear),
