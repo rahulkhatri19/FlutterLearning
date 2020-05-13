@@ -31,7 +31,7 @@ class _AddContactState extends State<AddContact> {
     } else {
       showDialog(
         context: context,
-        builder: (context){
+        builder: (BuildContext context){
           return AlertDialog(
             title: Text("Field required"),
             content: Text("All Field are required"),
